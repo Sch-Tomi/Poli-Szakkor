@@ -4,6 +4,6 @@ HTML (Hyper Text Markup Language) az a nyelv amivel a weboldalakat tudjuk leírn
 
 ## Hogy kapok meg egy weboldalt?
 
-![alt text]("/img/client-server.png")
+![alt text]("img/client-server.png")
 
 Minden weboldalt egy szervertől kérünk el. A szerver kiszolgálja a mi kérésünket, és vissza adja a kért HTML-t.
