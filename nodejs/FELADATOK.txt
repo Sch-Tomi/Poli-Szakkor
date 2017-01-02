@@ -1,0 +1,57 @@
+1. Végpontok!
+
+	Végpontok megadása példa:
+	Route.get('/login', 'ControllerName.methodName')
+	Route.post('/login', 'ControllerName.methodName')
+
+	Ami kontrollerünk a 'SessionController' lesz ezt használd.
+
+	- Készítsd el az alábbi végpontokat: (GET)
+		- /login
+		- /logout
+		- /register
+	- Készít el feldolgozó végpontokat is (POST) [Ezeket kapjuk majd meg ha valaki pl regisztrálni, vagy belépni akar]
+		- /login
+		- /logout
+		- /register
+
+	- Minden végponthoz rendelj egy a Session Controllerben lévő metódust.
+		- (Tipp: a feldolgozó metódusoknak lehet a neve az eredeti kiegészítve do-val
+			Vagyis ha SessionController.login volt a renderelő függvény, akkor a feldogolgozó legyen: SessionController.doLogin
+			)
+
+2. Session Controll
+	- Hozd lértre a SessionControll osztályt.
+	- ./ace make:controller Session
+
+3. Login
+	- Jelenítsd meg a /login (GET) végpontra a login.njk-t
+
+	* login(req, res) {
+    yield res.sendView('login')
+  }
+
+	- Állítsd be az űrlapnak a megfelelő URL-t
+
+4. Register
+	- Jelenítsd meg a /register (GET) végpontra a register.njk-t
+	- Állítsd be az űrlapnak a megfelelő URL-t
+
+5. Létrehozzuk az Adatbázist!
+	- npm i --save sqlite3 - console parancs
+	- node ace auth:setup - ez is
+	- node ace migration:run - létrehozás...
+
+	5.1 Adatbázis nézegető:
+	- npm install express-admin
+	- mkdir config\express-admin
+	- node_modules\.bin\admin config\express-admin
+
+	Database type: sqlite
+	Database file: database/development.sqlite
+	Server port: 4444
+	Admin user: admin
+	Admin password: ASDqwe123
+
+6. Regisztráció élesítése (közös)
+7. Login élesítése (közös)
