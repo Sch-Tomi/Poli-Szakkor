@@ -39,6 +39,7 @@ $(document).ready(function() {
 
 		// 1.1
 		// írjuk ki 3x hogy helló
+
 		for (var i = 0; i < 3; i++) {
 			write("Helló!")
 		}
@@ -72,7 +73,10 @@ $(document).ready(function() {
 		}
 		*/
 
-		
+		while (true) {
+
+		}
+
 
 
 
