@@ -1,0 +1,357 @@
+/* magasság: 123
+ szélesség: 79*/
+
+.hide {
+    display: none;
+}
+
+.blank {
+    left: -158px;
+    top: -492px;
+    clip: rect(492px, 237px, 615px, 158px);
+}
+
+
+/*
+
+    TREFF
+
+*/
+
+
+
+
+.treff_K {
+    left: -948px;
+    top: 0px;
+    clip: rect(0px, 1027px, 123px, 948px);
+}
+
+.treff_Q {
+    left: -869px;
+    top: 0px;
+    clip: rect(0px, 948px, 123px, 869px);
+}
+
+.treff_J {
+    left: -790px;
+    top: 0px;
+    clip: rect(0px, 869px, 123px, 790px)
+}
+
+.treff_10 {
+    left: -711px;
+    top: 0px;
+    clip: rect(0px, 790px, 123px, 711px)
+}
+
+.treff_9 {
+    left: -632px;
+    top: 0px;
+    clip: rect(0px, 711px, 123px, 632px)
+}
+
+.treff_8 {
+    left: -553px;
+    top: 0px;
+    clip: rect(0px, 632px, 123px, 553px)
+}
+
+.treff_7 {
+    left: -474px;
+    top: 0px;
+    clip: rect(0px, 553px, 123px, 474px)
+}
+
+.treff_6 {
+    left: -395px;
+    top: 0px;
+    clip: rect(0px, 474px, 123px, 395px)
+}
+
+.treff_5 {
+    left: -316px;
+    top: 0px;
+    clip: rect(0px, 395px, 123px, 316px)
+}
+
+.treff_4 {
+    left: -237px;
+    top: 0px;
+    clip: rect(0px, 316px, 123px, 237px)
+}
+
+.treff_3 {
+    left: -158px;
+    top: 0px;
+    clip: rect(0px, 237px, 123px, 158px)
+}
+
+.treff_2 {
+    left: -79px;
+    top: 0px;
+    clip: rect(0px, 158px, 123px, 79px)
+}
+
+.treff_A {
+    left: 0px;
+    top: 0px;
+    clip: rect(0px, 79px, 123px, 0px)
+}
+
+
+/*
+
+    KARO
+
+*/
+
+
+
+.karo_K {
+    left: -948px;
+    top: -123px;
+    clip: rect(123px, 1027px, 246px, 948px);
+}
+
+.karo_Q {
+    left: -869px;
+    top: -123px;
+    clip: rect(123px, 948px, 246px, 869px);
+}
+
+.karo_J {
+    left: -790px;
+    top: -123px;
+    clip: rect(123px, 869px, 246px, 790px)
+}
+
+.karo_10 {
+    left: -711px;
+    top: -123px;
+    clip: rect(123px, 79123px, 246px, 711px)
+}
+
+.karo_9 {
+    left: -632px;
+    top: -123px;
+    clip: rect(123px, 711px, 246px, 632px)
+}
+
+.karo_8 {
+    left: -553px;
+    top: -123px;
+    clip: rect(123px, 632px, 246px, 553px)
+}
+
+.karo_7 {
+    left: -474px;
+    top: -123px;
+    clip: rect(123px, 553px, 246px, 474px)
+}
+
+.karo_6 {
+    left: -395px;
+    top: -123px;
+    clip: rect(123px, 474px, 246px, 395px)
+}
+
+.karo_5 {
+    left: -316px;
+    top: -123px;
+    clip: rect(123px, 395px, 246px, 316px)
+}
+
+.karo_4 {
+    left: -237px;
+    top: -123px;
+    clip: rect(123px, 316px, 246px, 237px)
+}
+
+.karo_3 {
+    left: -158px;
+    top: -123px;
+    clip: rect(123px, 237px, 246px, 158px)
+}
+
+.karo_2 {
+    left: -79px;
+    top: -123px;
+    clip: rect(123px, 158px, 246px, 79px)
+}
+
+.karo_A {
+    left: 0px;
+    top: -123px;
+    clip: rect(123px, 79px, 246px, 123px)
+}
+
+/*
+
+KOR
+
+*/
+
+
+.kor_K {
+    left: -948px;
+    top: -246px;
+    clip: rect(246px, 1027px, 369px, 948px);
+}
+
+.kor_Q {
+    left: -869px;
+    top: -246px;
+    clip: rect(246px, 948px, 369px, 869px);
+}
+
+.kor_J {
+    left: -790px;
+    top: -246px;
+    clip: rect(246px, 869px, 369px, 790px)
+}
+
+.kor_10 {
+    left: -711px;
+    top: -246px;
+    clip: rect(246px, 79246px, 369px, 711px)
+}
+
+.kor_9 {
+    left: -632px;
+    top: -246px;
+    clip: rect(246px, 711px, 369px, 632px)
+}
+
+.kor_8 {
+    left: -553px;
+    top: -246px;
+    clip: rect(246px, 632px, 369px, 553px)
+}
+
+.kor_7 {
+    left: -474px;
+    top: -246px;
+    clip: rect(246px, 553px, 369px, 474px)
+}
+
+.kor_6 {
+    left: -395px;
+    top: -246px;
+    clip: rect(246px, 474px, 369px, 395px)
+}
+
+.kor_5 {
+    left: -316px;
+    top: -246px;
+    clip: rect(246px, 395px, 369px, 316px)
+}
+
+.kor_4 {
+    left: -237px;
+    top: -246px;
+    clip: rect(246px, 316px, 369px, 237px)
+}
+
+.kor_3 {
+    left: -158px;
+    top: -246px;
+    clip: rect(246px, 237px, 369px, 158px)
+}
+
+.kor_2 {
+    left: -79px;
+    top: -246px;
+    clip: rect(246px, 158px, 369px, 79px)
+}
+
+.kor_A {
+    left: 0px;
+    top: -246px;
+    clip: rect(246px, 79px, 369px, 246px)
+}
+
+
+/*
+
+PICK
+
+*/
+
+.pick_K {
+    left: -948px;
+    top: -369px;
+    clip: rect(369px, 1027px, 492px, 948px);
+}
+
+.pick_Q {
+    left: -869px;
+    top: -369px;
+    clip: rect(369px, 948px, 492px, 869px);
+}
+
+.pick_J {
+    left: -790px;
+    top: -369px;
+    clip: rect(369px, 869px, 492px, 790px)
+}
+
+.pick_10 {
+    left: -711px;
+    top: -369px;
+    clip: rect(369px, 79369px, 492px, 711px)
+}
+
+.pick_9 {
+    left: -632px;
+    top: -369px;
+    clip: rect(369px, 711px, 492px, 632px)
+}
+
+.pick_8 {
+    left: -553px;
+    top: -369px;
+    clip: rect(369px, 632px, 492px, 553px)
+}
+
+.pick_7 {
+    left: -474px;
+    top: -369px;
+    clip: rect(369px, 553px, 492px, 474px)
+}
+
+.pick_6 {
+    left: -395px;
+    top: -369px;
+    clip: rect(369px, 474px, 492px, 395px)
+}
+
+.pick_5 {
+    left: -316px;
+    top: -369px;
+    clip: rect(369px, 395px, 492px, 316px)
+}
+
+.pick_4 {
+    left: -237px;
+    top: -369px;
+    clip: rect(369px, 316px, 492px, 237px)
+}
+
+.pick_3 {
+    left: -158px;
+    top: -369px;
+    clip: rect(369px, 237px, 492px, 158px)
+}
+
+.pick_2 {
+    left: -79px;
+    top: -369px;
+    clip: rect(369px, 158px, 492px, 79px)
+}
+
+.pick_A {
+    left: 0px;
+    top: -369px;
+    clip: rect(369px, 79px, 492px, 369px)
+}
