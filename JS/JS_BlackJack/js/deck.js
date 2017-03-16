@@ -4,6 +4,8 @@ class Deck {
         this.mixed_deck = []
 
         this.init_original_deck()
+
+        this.original_deck[2].toHtmlClass()
     }
 
     init_original_deck(){
