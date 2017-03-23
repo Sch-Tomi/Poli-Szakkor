@@ -4,14 +4,12 @@ class Deck {
         this.mixed_deck = []
 
         this.init_original_deck()
-
-        this.original_deck[2].toHtmlClass()
     }
 
     init_original_deck(){
 
         var colors = ["pick","treff","karo","kor"]
-        var ertekek = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
+        var ertekek = [2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
 
         for (var color of colors) {
             for (var ertek of ertekek) {
@@ -24,7 +22,15 @@ class Deck {
     mix_deck(){
 
         this.mixed_deck = []
-        this.mixed_deck = JSON.parse(JSON.stringify(this.original_deck));
+
+        for (var card of this.original_deck) {
+          this.mixed_deck.push(card.clone())
+        }
+
+        for (var i = 0; i < this.original_deck.length; i++) {
+          this.mixed_deck.push(this.original_deck[i].clone())
+        }
+
 
         var currentIndex = this.mixed_deck.length,
             temporaryValue, randomIndex;

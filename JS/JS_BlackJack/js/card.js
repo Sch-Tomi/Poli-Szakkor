@@ -24,4 +24,9 @@ class Card {
 
     }
 
+    clone(){
+      return new Card(this.color, this.value)
+    }
+
+
 }
