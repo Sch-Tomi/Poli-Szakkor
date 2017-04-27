@@ -15,6 +15,14 @@ class Player {
     this.hand.push(card)
   }
 
+  clear_hand(){
+    this.hand = []
+  }
+
+  get_hand(){
+    return this.hand
+  }
+
   get_point(){
     var summa = 0
     var volt_e_Ace = false
