@@ -122,9 +122,9 @@ $(document).ready(function() {
 		|			|------|-------|-------|--------|
 		|			| true | true  | true  |  false |
 		|			|------|-------|-------|--------|
-		|			| true | false | true  |	false |
+		|			| true | false | true  |  false |
 		|			|------|-------|-------|--------|
-		|			| false| true  | true  |	true  |
+		|			| false| true  | true  |  true  |
 		|			|------|-------|-------|--------|
 		|			| false| false | false | true   |
 		|
@@ -148,8 +148,8 @@ $(document).ready(function() {
 		| Na és hogyan kapunk logikai értékeket? Csak úgy hogy kézzel oda írjuk, hogy valami igaz vagy hamis? Persze, hogy nem... :)
 		|
 		|	Mivan akkor ha szeretnénk megnézni, hogy egy szám nagyobb-e 10-nél? de lehetne (kissebb, egyenlő stb...)
-		| Ekkor jönnek a következő operátorok:
-		| ==	equal to
+		| 	Ekkor jönnek a következő operátorok:
+		| 	==	equal to
 		|	===	equal value and equal type
 		|	!=	not equal
 		|	!==	not equal value or not equal type

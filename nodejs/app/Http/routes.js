@@ -20,4 +20,9 @@ const Route = use('Route')
 Route.get('/').render('welcome')
 Route.get('/hello').render('hello')
 
-Route.get('/login').render('login')
+Route.get('/login', 'SessionController.login')
+Route.get('/logout', 'SessionController.logout')
+Route.get('/register', 'SessionController.register')
+
+Route.post('/login', 'SessionController.doLogin')
+Route.post('/register', 'SessionController.doRegister')

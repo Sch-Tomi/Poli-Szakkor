@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Blackjack in Javascript</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cards.css">
+
+    <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+
+    <script src="js/card.js" charset="utf-8"></script>
+    <script src="js/deck.js" charset="utf-8"></script>
+    <script src="js/Player.js" charset="utf-8"></script>
+    <script src="js/Game.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        var g = new Game()
+      })
+    </script>
+
+</head>
+
+<body>
+    <table align="center" cellspacing="10" cellpadding="0" border="0;">
+        <tbody>
+            <tr>
+                <td>
+                    <div id="field" style="">
+                        <div id="DealerCards">Dealer's cards:</div>
+                        <div class="emptyCard" id="dealer1 top_50 left_50">
+                            <div>
+                                <img src="img/cards.png" class="hide" >
+                            </div>
+                        </div>
+                        <div id="dealer2" class="emptyCard top_50 left_150">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="dealer3" class="emptyCard top_50 left_250">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="dealer4" class="emptyCard top_50 left_350">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="dealer5" class="emptyCard top_50 left_450">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="YourCards">Your cards:</div>
+                        <div id="player1" class="emptyCard top_250 left_50">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="player2" class="emptyCard top_250 left_150">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="player3" class="emptyCard top_250 left_250">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="player4" class="emptyCard top_250 left_350">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div id="player5" class="emptyCard top_250 left_450">
+                            <div>
+                                <img src="img/cards.png" class="hide">
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:20px; top: 410px; color:#9F9; font-size:large">You have:</div>
+                        <div id="money-div">$<span id="money">0</span></div>
+                        <div id="betdiv">
+                            <span style="color:#9F9">Your bet:</span>&nbsp; <input size="6" id="bet" value="10" type="text">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input id="hitButton" value="Hit" type="button">
+                    <input id="standButton" value="Stand" type="button">
+                    <input id="newGameButton" value="New Game" type="button">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <div class="message-bg">
+                        <span id="message"></span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
